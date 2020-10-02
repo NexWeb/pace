@@ -13,7 +13,7 @@ type CardsService interface {
 	// TakeCard takes responsibility for a card.
 	// Can be undone with PutBackCard.
 	TakeCard(TakeCardRequest) TakeCardResponse
-	// PutBackCard removes a user from the list of responsbile users.
+	// PutBackCard removes a user from the list of responsible users.
 	// Undoes TakeCard.
 	PutBackCard(PutBackCardRequest) PutBackCardResponse
 	// DeleteCard deletes a card.
